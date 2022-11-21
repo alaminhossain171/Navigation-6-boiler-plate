@@ -6,6 +6,7 @@ import Home from '../screens/home/Home';
 import Settings from '../screens/home/Settings';
 import HomeStack from './HomeStack';
 import { navigationStrings } from './NavigationStrings';
+import SettingStack from './SettingsStack';
 
 
 
@@ -16,7 +17,7 @@ export default function TabRouter() {
 
       <Tab.Navigator screenOptions={{headerShown:false}}>
         <Tab.Screen name={navigationStrings.HomeStack} component={HomeStack} />
-        <Tab.Screen name={navigationStrings.SETTINGS} component={Settings} />
+        <Tab.Screen name={navigationStrings.SETTINGSTACK} component={SettingStack} />
       </Tab.Navigator>
 
   );

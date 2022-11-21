@@ -7,6 +7,7 @@ const SubHome = ({navigation}) => {
     <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
     <Text>This is sub home page</Text>
       <Button title='go to main home page'onPress={()=>navigation.navigate(navigationStrings.HOME)}></Button>
+      <Button title='go to sub settings sub page'onPress={()=>navigation.navigate(navigationStrings.SUBSETTING)}></Button>
     </View>
   )
 }

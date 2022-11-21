@@ -11,6 +11,8 @@ export const navigationStrings={
 
 //after login pages
 "HomeStack":"HomeStack",
+"SETTINGSTACK":'SettingStack',
+"SUBSETTING":'subsetting',
 "HOME":"Home",
 "SUBHOME":"Subhome",
 "SETTINGS":"Settings"

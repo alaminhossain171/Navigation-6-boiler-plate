@@ -7,6 +7,7 @@ const Settings = ({navigation}) => {
     <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
       <Text style={{color:'red'}}>Settings</Text>
       <Button title='go to sub home' onPress={()=>navigation.navigate(navigationStrings.SUBHOME)} />
+      <Button title='go to sub setting' onPress={()=>navigation.navigate(navigationStrings.SUBSETTING)} />
     </View>
   )
 }
