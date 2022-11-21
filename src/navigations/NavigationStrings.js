@@ -11,6 +11,8 @@ EXPLORE:"Explore",
 LOGIN:'Login',
 SIGNUP:'Signup',
 
+PRODUCTDETAILS:'ProductDetails'
+
 
 
 

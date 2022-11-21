@@ -3,7 +3,7 @@ import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import { navigationStrings } from './NavigationStrings';
-import { Explore, Profile } from '../screens';
+import { Explore, ProductDetails, Profile } from '../screens';
 
 
 const ExploreStack = () => {
@@ -11,7 +11,7 @@ const ExploreStack = () => {
   return (
     <ExploreStack.Navigator screenOptions={{ headerShown: false }}>
       <ExploreStack.Screen name={navigationStrings.EXPLORE} component={Explore} />
-
+      <ExploreStack.Screen name={navigationStrings.PRODUCTDETAILS} component={ProductDetails} />
     </ExploreStack.Navigator>
   )
 }
