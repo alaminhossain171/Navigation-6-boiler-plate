@@ -7,8 +7,8 @@ const LoginPage = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text>This is login page</Text>
-      <Button title='Go to sign up page' color={'coral'} onPress={() => navigation.navigate(navigationStrings.SIGNUP)} />
+      <Text style={{ fontSize: 50 }}>LOGIN</Text>
+      <Button title='<<<Signup>>>' color={'coral'} onPress={() => navigation.navigate(navigationStrings.SIGNUP)} />
     </View>
   )
 }
@@ -16,10 +16,10 @@ const LoginPage = ({ navigation }) => {
 export default LoginPage
 
 const styles = StyleSheet.create({
-  container:{
-    flex:1,
-    justifyContent:'center'
+  container: {
+    flex: 1,
+    justifyContent: 'center'
     ,
-    alignItems:'center'
+    alignItems: 'center'
   }
 })

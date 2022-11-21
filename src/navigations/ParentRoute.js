@@ -9,9 +9,9 @@ const ParentRoute = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator screenOptions={{ headerShown: false }}>
-                {!true ? AuthStack(Stack) : MainStack(Stack)}
+                {/* {false ? AuthStack(Stack) : MainStack(Stack)} */}
                 {/* {AuthStack(Stack)} */}
-                {/* {MainStack(Stack)} */}
+                {MainStack(Stack)}
 
 
             </Stack.Navigator>

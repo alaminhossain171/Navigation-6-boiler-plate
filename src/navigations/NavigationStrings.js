@@ -1,20 +1,17 @@
 export const navigationStrings={
+//stacks
+TABROUTES:'TabRoutes',
+HOMESTACK:'HomeStack',
+PROFILESTACK:'ProfileStack',
+EXPLORESTACK:'ExploreStack',
 
-    //Tab screen
-    "TABSCREEN":'TabScreen',
+HOME:"Home",
+PROFILE:"Profile",
+EXPLORE:"Explore",
+LOGIN:'Login',
+SIGNUP:'Signup',
 
-    //Auth stacks
-"LOGIN":'login',
-"SIGNUP":'signup',
 
-//Auth Stacks
 
-//after login pages
-"HomeStack":"HomeStack",
-"SETTINGSTACK":'SettingStack',
-"SUBSETTING":'subsetting',
-"HOME":"Home",
-"SUBHOME":"Subhome",
-"SETTINGS":"Settings"
 
 }

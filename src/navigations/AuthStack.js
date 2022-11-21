@@ -1,18 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import LoginPage from '../screens/auth/LoginPage'
-import SignUp from '../screens/auth/SignUp'
-import { navigationStrings } from './NavigationStrings'
 
-const AuthStack = (Stack) => {
+import { navigationStrings } from './NavigationStrings'
+import { Login, Signup } from '../screens'
+
+export default function(Stack) {
   return (
     <>
-     <Stack.Screen name={navigationStrings.LOGIN} component={LoginPage} />
-     <Stack.Screen name={navigationStrings.SIGNUP} component={SignUp} />
+     <Stack.Screen name={navigationStrings.LOGIN} component={Login} />
+     <Stack.Screen name={navigationStrings.SIGNUP} component={Signup} />
     </>
   )
 }
-
-export default AuthStack
-
-const styles = StyleSheet.create({})

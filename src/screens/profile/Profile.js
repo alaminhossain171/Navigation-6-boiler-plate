@@ -3,17 +3,17 @@ import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { navigationStrings } from '../../navigations/NavigationStrings'
 
-const Home = () => {
+const Profile = () => {
     const navigation=useNavigation()
   return (
     <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
-    <Text style={{fontSize:50}}> HOME</Text>
+    <Text style={{fontSize:50}}> Profile</Text>
       
     
     </View>
   )
 }
 
-export default Home
+export default Profile
 
 const styles = StyleSheet.create({})
