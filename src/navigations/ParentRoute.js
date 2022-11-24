@@ -1,20 +1,20 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import AuthStack from './AuthStack';
 import MainStack from './MainStack';
-const Stack = createNativeStackNavigator();
+import { navigationStrings } from './NavigationStrings';
+import TabRouter from './TabRoutes';
+const Drawer = createDrawerNavigator();
 const ParentRoute = () => {
     return (
         <NavigationContainer>
-            <Stack.Navigator screenOptions={{ headerShown: false }}>
-                {/* {false ? AuthStack(Stack) : MainStack(Stack)} */}
-                {/* {AuthStack(Stack)} */}
-                {MainStack(Stack)}
+            <Drawer.Navigator >
+            <Drawer.Screen name={navigationStrings.TABROUTES} component={TabRouter} />
 
 
-            </Stack.Navigator>
+            </Drawer.Navigator>
         </NavigationContainer>
     )
 }
